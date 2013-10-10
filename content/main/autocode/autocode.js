@@ -54,7 +54,7 @@ if( ! window.autocode )
 				{
 					var devPath			= 'E:/05 - Commercial Projects/Komodo Extensions/AutoCode/tools/';
 					var toolbox			= ko.toolbox2.getExtensionToolbox("autocode@xjsfl.com");
-					toolboxPath			= toolbox ? (toolbox.path + '/').replace(/\\/g, '/') + '/' : devPath;
+					var toolboxPath		= toolbox ? (toolbox.path + '/').replace(/\\/g, '/') + '/' : devPath;
 					autocode.settings.toolboxPath = toolboxPath;
 					//alert(toolboxPath)
 				}
